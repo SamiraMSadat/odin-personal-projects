@@ -20,7 +20,7 @@ header {
   gap: 16px;
 }
 
-.navigation {
+nav {
     display:flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -79,19 +79,20 @@ button,
 .card-container {
     display: flex;
     margin-top: 20px;
+    justify-content: space-evenly;
 }
 
 .info-card {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+    max-width: 175px;
 }
 
 .square {
-    height: 0;
-    width: 90%;
-    padding-bottom: 90%;
+    width: 150px;
+    height: 150px;
     border-color: #3882f6;
     border-style: solid;
     border-radius: 10px;
